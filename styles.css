@@ -4,8 +4,60 @@
     box-sizing: border-box;
 }
 
+
+
+
+.general-info{
+    font-weight:bold;
+    margin-top:80px;
+    font-size: 1.2rem;
+    line-height:1.6rem;
+}
+
+.youknowtext{
+    margin-top:12px;
+}
+
+.project-container{
+    display: flex;
+    gap:30px;
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.name,.email-phone,.pass{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.first-name,.last-name,.email,.phone-number,.password,.confirm-pass{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name,.email{
+    margin-bottom:20px;
+
+}
+
+input{
+    font-size:1.3rem;
+}
+
+
+
 .sidebar{
-    width:400px;
+    width:500px;
     height:100vh;
 }
 
@@ -41,4 +93,78 @@ img{
      text-transform: uppercase;
      letter-spacing: 2px;
 
+}
+
+.general-info{
+    font-weight:bold;
+    margin-top:80px;
+}
+
+.youknowtext{
+    margin-top:12px;
+}
+
+.project-container{
+    display: flex;
+    gap:30px;
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.name,.email-phone,.pass{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.first-name,.last-name,.email,.phone-number,.password,.confirm-pass{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    letter-spacing: 2px;
+}
+.first-name,.email{
+    margin-bottom:20px;
+
+}
+
+input{
+    font-size:1.3rem;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding:5px;
+
+}
+
+form{
+    width:100%;
+}
+
+form legend{
+    margin-bottom:15px;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+.signupPage{
+    margin-top:40px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.1);
+    padding:20px;
+    width:100%;
+}
+
+input[type="password"]:invalid{
+    border:1px solid red;
 }
