@@ -8,14 +8,15 @@
 
 
 .general-info{
-    font-weight:bold;
     margin-top:80px;
     font-size: 1.2rem;
     line-height:1.6rem;
+    font-weight:bold;
+    margin-top:80px;
 }
 
 .youknowtext{
-    margin-top:12px;
+    margin-top: 24px;
 }
 
 .project-container{
@@ -57,7 +58,7 @@ input{
 
 
 .sidebar{
-    width:500px;
+    width:400px;
     height:100vh;
 }
 
@@ -95,10 +96,6 @@ img{
 
 }
 
-.general-info{
-    font-weight:bold;
-    margin-top:80px;
-}
 
 .youknowtext{
     margin-top:12px;
@@ -167,4 +164,35 @@ form legend{
 
 input[type="password"]:invalid{
     border:1px solid red;
+}
+
+.login-prompt{
+    display: flex;
+    font-size: 1.1rem;
+    gap:5px;
+    
+}
+.login-prompt a {
+    color:rgb(123, 185, 18);
+    text-decoration:none;
+    font-weight: bold;
+}
+
+
+
+.btn{
+    padding:0.8rem 2rem;
+    font-size: 1.2rem;
+    background-color: rgb(123, 185, 16);
+    color:#fff;
+    font-weight: bold;
+    cursor:pointer;
+    border:none;
+    border-radius: 6px;
+    margin-bottom:20px;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
 }
