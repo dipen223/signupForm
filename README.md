@@ -1,0 +1,1 @@
+This is a simple unresponsive signup form. I've been learning web development from The Odin Project and this project is a required one to complete the intermediate form validation using HTML and CSS. Basically, I made a clone.
